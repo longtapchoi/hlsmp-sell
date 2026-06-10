@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.elivb</groupId>
-    <artifactId>DonutSell</artifactId>
+    <artifactId>HLSMP-Sell</artifactId>
     <version>2.7</version>
     <packaging>jar</packaging>
 
