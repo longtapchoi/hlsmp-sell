@@ -23,7 +23,7 @@ public class PriceManager {
    private final Map<String, PriceModel> priceCategories = new HashMap();
    private final Map<String, Double> enchantedBookPrices = new HashMap();
    private final Map<String, Double> potionPrices = new HashMap();
-   private final File pricesFolder = new File("plugins/DonutSell/prices");
+   private final File pricesFolder = new File("plugins/HLSMP-Sell/prices");
 
    public PriceManager() {
       this.loadAllPriceCategories();
