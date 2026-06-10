@@ -104,7 +104,7 @@ public class MainGUI implements InventoryHolder {
    }
 
    public static void loadConfig() {
-      File configFile = new File("plugins/DonutSell/gui/sell.gui.yml");
+      File configFile = new File("plugins/HLSMP-Sell/gui/sell.gui.yml");
 
       try {
          if (!configFile.exists()) {
