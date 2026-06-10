@@ -513,7 +513,7 @@ public class ProgressItemListGUI implements InventoryHolder {
 
       static ConfigCache load() {
          ConfigCache c = new ConfigCache();
-         File configFile = new File("plugins/DonutSell/gui/progress.item.list.yml");
+         File configFile = new File("plugins/HLSMP-Sell/gui/progress.item.list.yml");
 
          try {
             if (!configFile.exists()) {
