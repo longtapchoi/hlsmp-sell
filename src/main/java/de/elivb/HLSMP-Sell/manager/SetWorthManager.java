@@ -40,7 +40,7 @@ public class SetWorthManager {
       this.priceManager = priceManager;
       this.currencyFormatter = currencyFormatter;
       this.langManager = langManager;
-      this.pricesFolder = new File("plugins/DonutSell/prices");
+      this.pricesFolder = new File("plugins/HLSMP-Sell/prices");
       this.categoryFiles = new HashMap();
       this.soundConversionTable = this.createSoundConversionTable();
       this.loadSounds();
