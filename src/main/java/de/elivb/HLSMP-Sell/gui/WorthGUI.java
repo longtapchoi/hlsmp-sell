@@ -843,7 +843,7 @@ public class WorthGUI implements InventoryHolder {
 
       static ConfigCache load() {
          ConfigCache c = new ConfigCache();
-         File configFile = new File("plugins/DonutSell/gui/worth.yml");
+         File configFile = new File("plugins/HLSMP-Sell/gui/worth.yml");
 
          try {
             if (!configFile.exists()) {
