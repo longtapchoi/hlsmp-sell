@@ -1,0 +1,59 @@
+sellhistory:
+  title: "&8ꜱᴇʟʟ ʜɪꜱᴛᴏʀʏ"
+  rows: 6
+
+source-item:
+  displayname: '%item_name%'
+  lore:
+    - "%item_lore%"
+    - ""
+    - '&fTotal price: &#04fc84%total_price%'
+    - '&fTotal amount: &#04fc84%total_amount%'
+    -
+  solt: "0-44"
+
+  navigation:
+    previous-page-slot: 45
+    previous-page:
+      material: ARROW
+      displayname: '&#04fc84ᴘʀᴇᴠɪᴏᴜꜱ'
+      lore:
+        - '&fClick to go to the previous page'
+
+    next-page-slot: 53
+    next-page:
+      material: ARROW
+      displayname: '&#04fc84ɴᴇxᴛ'
+      lore:
+        - '&fClick to go to the next page'
+
+    statistics:
+      slot: 48
+      material: PLAYER_HEAD
+      displayname: '&#04fc84ꜱᴛᴀᴛɪꜱᴛɪᴄꜱ'
+      lore:
+        - '&fTotal Items Sold: &#04fc84%donutsell_total_items%'
+        - '&fTotal Money Earned: &#04fc84%donutsell_formatted_total%'
+
+    refresh:
+      slot: 49
+      material: ANVIL
+      displayname: '&#04fc84ʀᴇꜰʀᴇꜱʜ'
+      lore:
+        - '&fClick to refresh'
+
+    sort-button:
+      slot: 50
+      material: CAULDRON
+      displayname: '&#04fc84ꜱᴏʀᴛɪɴɢ'
+      lore-inactive:
+        - '&f● ᴘʀɪᴄᴇ: ʜɪɢʜᴇsᴛ ғɪʀsᴛ'
+        - '&f● ᴘʀɪᴄᴇ: ʟᴏᴡᴇsᴛ ғɪʀsᴛ'
+        - '&f● ɴᴀᴍᴇ: ᴀ-ᴢ'
+        - '&f● ɴᴀᴍᴇ: ᴢ-ᴀ'
+
+      lore-active:
+        - '&#04fc84● ᴘʀɪᴄᴇ: ʜɪɢʜᴇsᴛ ғɪʀsᴛ'
+        - '&#04fc84● ᴘʀɪᴄᴇ: ʟᴏᴡᴇsᴛ ғɪʀsᴛ'
+        - '&#04fc84● ɴᴀᴍᴇ: ᴀ-ᴢ'
+        - '&#04fc84● ɴᴀᴍᴇ: ᴢ-ᴀ'

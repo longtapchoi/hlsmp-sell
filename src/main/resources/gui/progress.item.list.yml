@@ -1,0 +1,42 @@
+category-item-worth-list:
+  rows: 6
+  worth-items: "0-44"
+
+  titles:
+    crops: '&8ꜰᴀʀᴍ ɪᴛᴇᴍѕ'
+    mobs: '&8ᴍᴏʙ ᴅʀᴏᴘѕ'
+    ores: '&8ᴏʀᴇѕ'
+    natural: '&8ɴᴀᴛᴜʀᴀʟ ɪᴛᴇᴍѕ'
+    tools: '&8ᴀʀᴍᴏʀ ᴀɴᴅ ᴛᴏᴏʟѕ'
+    fish: '&8ғɪsʜ'
+    books: '&8ʙᴏᴏᴋѕ'
+    potions: '&8ᴘᴏᴛɪᴏɴѕ'
+    blocks: '&8ʙʟᴏᴄᴋѕ'
+
+
+  navigation:
+    previous-page-slot: 48
+    previous-page:
+      material: ARROW
+      displayname: '&#04fc84ᴘʀᴇᴠɪᴏᴜꜱ'
+      lore:
+        - '&fClick to go to the previous page'
+
+    next-page-slot: 50
+    next-page:
+      material: ARROW
+      displayname: '&#04fc84ɴᴇxᴛ'
+      lore:
+        - '&fClick to go to the next page'
+
+    close-button:
+      slot: 45
+      material: RED_STAINED_GLASS_PANE
+      displayname: '&#FC0000ᴄʟᴏꜱᴇ'
+      lore:
+        - '&fClick to close the menu'
+
+    item:
+      displayname: '&f%item-name%'
+      lore:
+        - '&fPrice: &#0bf52b%price%'
