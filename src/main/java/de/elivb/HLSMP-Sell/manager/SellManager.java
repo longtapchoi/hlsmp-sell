@@ -56,7 +56,7 @@ public class SellManager implements Listener {
       this.plugin = plugin;
       this.economy = economy;
       this.currencyFormatter = currencyFormatter;
-      this.priceManager = new PriceManager();
+      this.priceManager = new PriceManager(plugin);
       this.langManager = langManager;
       this.playerDataManager = playerDataManager;
       this.isFolia = isFolia;
