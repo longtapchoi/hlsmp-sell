@@ -155,7 +155,7 @@ public class MainGUI implements InventoryHolder {
          guiTitle = config.getString("inventory.title", "&8ꜱᴇʟʟɢᴜɪ");
          guiRows = config.getInt("inventory.rows", 5);
          guiRows = Math.max(1, Math.min(6, guiRows));
-         File mainConfig = new File("plugins/DonutSell/config.yml");
+         File mainConfig = new File("plugins/HLSMP-Sell/config.yml");
          if (mainConfig.exists()) {
             YamlConfiguration mainCfg = YamlConfiguration.loadConfiguration(mainConfig);
             progressBarLoadingColor = mainCfg.getString("progress-bar.loading-color", "&f");
