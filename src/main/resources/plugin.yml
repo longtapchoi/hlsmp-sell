@@ -1,4 +1,4 @@
-name: DonutSell
+name: HLSMP-Sell
 version: '2.7'
 main: de.elivb.donutSell.Sell
 api-version: '1.21'
