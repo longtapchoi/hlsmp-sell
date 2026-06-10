@@ -706,7 +706,7 @@ public class SellHistoryGUI implements InventoryHolder {
 
       static ConfigCache load() {
          ConfigCache c = new ConfigCache();
-         File configFile = new File("plugins/DonutSell/gui/sellhistory.yml");
+         File configFile = new File("plugins/HLSMP-Sell/gui/sellhistory.yml");
 
          try {
             if (!configFile.exists()) {
