@@ -1,0 +1,81 @@
+#Here you can change all the messages and actions bars of the plugin
+
+prefix-enabled: false
+prefix: '&#E0E319&lBÁN &7» '
+
+sell-success:
+  module:
+    chat:
+      enabled: false
+      message:
+        - ""
+    actionbar:
+      enabled: true
+      message:
+        - "&#00fc88+%price%"
+    title:
+      enabled: false
+      message:
+        - "&#00fc88+%price%"
+    subtitle:
+      enabled: false
+      message:
+        - ""
+
+messages:
+  no-permission: '&#FF0000Bạn không có quyền thực hiện điều này!'
+  plugin-reloaded: '&#0bf52bPlugin đã được tải lại!'
+  sellaxe-given: '&#0bf52bBạn đã nhận được Rìu Bán Hàng!'
+  sellaxe-give-to-player: '&#0bf52bThành công!'
+  sellaxe-broken: '&#FF0000Rìu Bán Hàng của bạn đã bị vỡ!'
+  player-not-found: '&#FF0000Không tìm thấy người chơi!'
+  player-only: 'Bạn phải là người chơi để dùng lệnh này!'
+  no-sellable-items: '&#FF0000Bạn không có vật phẩm nào có thể bán!'
+  worth-toggle-enabled: '&#0bf52bHiển thị giá trị đã được bật!'
+  worth-toggle-disabled: '&#FF0000Hiển thị giá trị đã được tắt!'
+  material-not-exists: '&#FF0000Vật liệu không tồn tại!'
+  available-categories: '&#0bf52bCác danh mục hiện có:'
+  category-list: '&#0bf52b- &f%category%'
+  material-created: '&#0bf52bVật liệu %material% đã được tạo trong danh mục %category% với giá %price%!'
+  material-updated: '&#0bf52bVật liệu %material% đã được cập nhật trong danh mục %category% với giá %price%!'
+  enchantedbook-created: '&#0bf52bSách Phù Chú %enchantment% đã được tạo trong danh mục %category% với giá %price%!'
+  enchantedbook-updated: '&#0bf52bSách Phù Chú %enchantment% đã được cập nhật trong danh mục %category% với giá %price%!'
+  potion-created: '&#0bf52bThuốc %potion% đã được tạo trong danh mục %category% với giá %price%!'
+  potion-updated: '&#0bf52bThuốc %potion% đã được cập nhật trong danh mục %category% với giá %price%!'
+  no-item-in-hand: '&#FF0000Bạn không cầm vật phẩm nào trên tay!'
+  invalid-price: '&#FF0000Giá không hợp lệ!'
+  player-reset: '&#0bf52bDữ liệu người chơi đã được đặt lại!'
+
+action-bars:
+  plugin-reloaded: '&#0bf52bPlugin đã được tải lại!'
+  no-sellable-items: '&#FF0000Bạn không có vật phẩm nào có thể bán!'
+  item-worth: "&f%item% có giá trị &#0bf52b%price%"
+  stack-worth: "&f%item% &7(x%amount%) có giá trị &#0bf52b%total% &7(%single% mỗi cái)"
+  shulker-worth: "&f%item% có giá trị &#0bf52b%price% &7(%count% vật phẩm)"
+  shulker-empty: "&f%item% có giá trị &#0bf52b%price% &7(trống)"
+  item-not-sellable: "&#FF0000%item% không thể bán"
+  no-item-in-hand: "&#FF0000Bạn không cầm vật phẩm nào trên tay"
+  invalid-item: "&#FF0000Vật phẩm không hợp lệ!"
+  worth-toggle-on: "&#0bf52b✓ Hiển thị giá trị đã bật"
+  worth-toggle-off: "&#FF0000✗ Hiển thị giá trị đã tắt"
+
+command-usage: |
+  &#E0E319&lBÁN HÀNG
+  &#E0E319➤ &f/sell
+  &#E0E319➤ &f/worth
+  &#E0E319➤ &f/worth <vật phẩm>
+  &#E0E319➤ &f/worth hand
+  &#E0E319➤ &f/worthtoggle
+  &#E0E319➤ &f/sellhistory
+
+
+command-usage-admin: |
+  &#FF0000&lBÁN HÀNG ADMIN
+  &#FF0000➤ &f/sell reload
+  &#FF0000➤ &f/sellaxe <người chơi>
+  &#FF0000➤ &f/setworth <vật phẩm> <giá>
+  &#FF0000➤ &f/setworth <vật phẩm> <giá> <danh mục>
+  &#FF0000➤ &f/setworth hand <giá>
+  &#FF0000➤ &f/setworth hand <giá> <danh mục>
+  &#FF0000➤ &f/sell reset <người chơi>
+  &#FF0000➤ &f/sellhistory <người chơi>
