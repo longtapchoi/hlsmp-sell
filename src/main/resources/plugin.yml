@@ -1,9 +1,9 @@
-name: DonutSell
+name: HLSMP-Sell
 version: '2.7'
 main: de.elivb.donutSell.Sell
 api-version: '1.21'
 author: ᴇʟɪᴠʙ
-website: https://discord.gg/kEDAdrFRYa
+website: 
 description: ꜱᴇʟʟ ᴘʟᴜɢɪɴ ʟɪᴋᴇ ᴅᴏɴᴜᴛꜱᴍᴘ
 load: POSTWORLD
 depend: [Vault]
