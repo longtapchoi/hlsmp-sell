@@ -1,0 +1,46 @@
+name: DonutSell
+version: '2.7'
+main: de.elivb.donutSell.Sell
+api-version: '1.21'
+author: ᴇʟɪᴠʙ
+website: https://discord.gg/kEDAdrFRYa
+description: ꜱᴇʟʟ ᴘʟᴜɢɪɴ ʟɪᴋᴇ ᴅᴏɴᴜᴛꜱᴍᴘ
+load: POSTWORLD
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+folia-supported: true
+load-before: [Vault, PlaceholderAPI]
+
+commands:
+  sell:
+  worth:
+  sellaxe:
+  worthtoggle:
+  sellhistory:
+  setworth:
+
+permissions:
+  sell.reload:
+    default: op
+  sell.use:
+    default: true
+  sell.sellaxe:
+    default: op
+  sell.setworth:
+    default: op
+  sell.vip:
+    default: false
+  sell.history.other:
+    default: op
+  sell.reset:
+    default: op
+
+  sell.admin:
+    default: op
+    children:
+      sell.reload: true
+      sell.sellaxe: true
+      sell.use: true
+      sell.setworth: true
+      sell.history.other: true
+      sell.reset: true
