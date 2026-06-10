@@ -9,7 +9,7 @@
     <version>2.7</version>
     <packaging>jar</packaging>
 
-    <name>DonutSell</name>
+    <name>HLSMP-Sell</name>
 
     <properties>
         <java.version>21</java.version>
